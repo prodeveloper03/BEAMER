@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">beamer</string>
+    <string name="your_weight_in_kg">Your weight in Kg</string>
+    <string name="your_height_in_cm">your height in Cm</string>
+    <string name="your_result">Your Result</string>
+    <string name="calculate">Calculate</string>
+</resources>

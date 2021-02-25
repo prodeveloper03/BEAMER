@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEAME$R"
+        android:textSize="45sp"
+        android:fontFamily="@font/anton"
+        android:layout_marginVertical="10dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_weight_in_kg"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/anton"/>
+
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:layout_marginVertical="15dp"
+        android:textSize="15sp"
+        android:background="@drawable/edit_bg"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_height_in_cm"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/anton"
+        android:textSize="15sp"
+        android:layout_marginVertical="15dp"/>
+
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_bg"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="28dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/calculate"
+        android:textColor="@color/buttonColor"
+        android:background="@drawable/btn_bn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/your_result"
+        android:textSize="35sp"
+        android:fontFamily="@font/anton"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/result"/>
+
+
+
+
+
+
+</LinearLayout>
